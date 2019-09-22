@@ -38,7 +38,7 @@
   {
     "label": "What is 1 / 2?",
     "choices": [
-      {"value": "1/2", "correct": true},
+      {"value": "2", "correct": false},
       {"value": "0", "correct": false},
       {"value": "1", "correct": false},
       {"value": "0.5", "correct": true}
