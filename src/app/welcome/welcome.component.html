@@ -1,0 +1,16 @@
+<div>
+  <div>
+    <h1> Quizzes</h1>
+  </div>
+  <div *ngFor="let q of quiz">
+    <div>
+        <h2>{{q.label}}</h2>
+        <h5>{{q.description}}</h5>
+        <p>
+          <button>
+            <a routerLink="/{{q.name}}">Select this quiz</a>
+          </button>
+        </p>
+      </div>
+  </div>
+</div>
