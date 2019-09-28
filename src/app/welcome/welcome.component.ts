@@ -9,7 +9,7 @@ import { Quiz } from '../quiz.model';
 })
 export class WelcomeComponent implements OnInit {
   quiz: Quiz[];
-  constructor(private questionsService: QuestionsService) {
+  constructor(public questionsService: QuestionsService) {
 
     this.questionsService.getQuizzes()
       .subscribe(quiz => {
